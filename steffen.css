@@ -1,15 +1,13 @@
-{background-color: green;}
-body {background-image: url("Bilder\Woods-3.jpg");}
-
-h1 {font-family:times new roman, times, serif;}
+body {  background-image: url("Bilder/woods-3.jpg");
+        background-size: cover; /* makes image fill the page */
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+     }
 
 h1 {
+    font-family:times new roman, times, serif;
     color: navy;
     text-align: center;
-    font-size: 40px;}
-
-body {position: absolute;
-top: 0;
-left: 0;
-width: 750px;
-height: 75px;}
+    font-size: 40px;
+   }
