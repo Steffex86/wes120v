@@ -28,7 +28,7 @@ p {
    }
 
 h1, h2, p {
-    background-color: (green);
+    background-color:green;
     padding: 10px;
     border-radius: 10px;
    }
