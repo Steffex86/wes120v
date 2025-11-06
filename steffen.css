@@ -33,11 +33,3 @@ dl {
     padding: 10px;
     margin: 10px auto;
  }
-
-h1, h2, p {
-    background-color:green;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    margin: 10px auto;
- }
