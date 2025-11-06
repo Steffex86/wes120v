@@ -1,8 +1,8 @@
 body {  background-image: url("Bilder/woods-3.jpg");
-        background-size: cover; /* makes image fill the page */
-        background-repeat: no-repeat;
-        margin: 0;
-        padding: 0;
+        background-position: 0px 50%;
+        background-repeat: repeat;
+        margin: 15px;
+        padding: 15px;
      }
 
 h1 {
