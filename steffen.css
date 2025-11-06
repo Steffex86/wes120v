@@ -30,5 +30,5 @@ p {
 h1, h2, p {
     background-color:green;
     display: inline-block;
-    border-radius: 10px;
+    padding: 10px;
    }
