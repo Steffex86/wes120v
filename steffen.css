@@ -1,7 +1,7 @@
 body {
     background-image: url("woods-3.jpg");
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     }
 
 #wrapper {
@@ -35,11 +35,14 @@ p {
     color: black;
     text-align: center;
     font-size: 20px;
+    padding: 10px;
+    margin: 10px auto;
    }
 
 dl {
     font-family:times new roman, times, serif;
     background-color: lightgrey;
+    color: darkgreen;
     display: inline-block;
     font-size: 15px;
     padding: 10px;
@@ -52,7 +55,9 @@ dl {
     color: darkgreen;
     display: inline-block;
     font-size: 15px;
+    padding: 10px;
+    margin: 10px auto;
     position: absolute; /* position relative to wrapper */
-    right: 20px;         /* 20px from right edge */
-    bottom: 20px;           /* adjust this as needed */
+    right: 20px;        
+    bottom: 20px;
    }
