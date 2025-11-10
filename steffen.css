@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
+    position: relative; /* allow absolute positioning of child elements */
    }
 
 h1 {
@@ -48,8 +49,10 @@ dl {
     background-color: lightgrey;
     color: darkgreen;
     display: inline-block;
-    text-align: right;
     padding: 10px;
     margin: 10px auto;
     font-size: 18px;
+    position: absolute; /* position relative to wrapper */
+    right: 20px;         /* 20px from right edge */
+    top: 20px;           /* adjust this as needed */
    }
