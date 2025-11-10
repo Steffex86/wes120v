@@ -40,6 +40,7 @@ dl {
     font-family:times new roman, times, serif;
     background-color: lightgrey;
     display: inline-block;
+    font-size: 15px;
     padding: 10px;
     margin: 10px auto;
  }
@@ -49,9 +50,7 @@ dl {
     background-color: lightgrey;
     color: darkgreen;
     display: inline-block;
-    padding: 10px;
-    margin: 10px auto;
-    font-size: 18px;
+    font-size: 15px;
     position: absolute; /* position relative to wrapper */
     right: 20px;         /* 20px from right edge */
     bottom: 20px;           /* adjust this as needed */
