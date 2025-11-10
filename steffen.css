@@ -54,5 +54,5 @@ dl {
     font-size: 18px;
     position: absolute; /* position relative to wrapper */
     right: 20px;         /* 20px from right edge */
-    top: 20px;           /* adjust this as needed */
+    bottom: 20px;           /* adjust this as needed */
    }
