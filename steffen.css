@@ -47,5 +47,9 @@ dl {
     font-family:times new roman, times, serif;
     background-color: lightgrey;
     color: darkgreen;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    margin: 10px auto;
     font-size: 18px;
    }
