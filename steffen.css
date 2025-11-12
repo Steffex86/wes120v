@@ -20,6 +20,15 @@ body {
     font-size: 40px;
    }
 
+.city {
+  background-color: lightgreen;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
 h2 {
     font-family:times new roman, times, serif;
     font-weight:bold;
