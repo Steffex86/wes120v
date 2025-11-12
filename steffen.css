@@ -13,7 +13,8 @@ body {
    }
 
 #myheader {
-    font-family:"times new roman", times, serif;
+    font-family:"times new roman", times, sans-serif;
+    font-style:oblique;
     font-weight:bold;
     color: whitesmoke;
     text-align: center;
@@ -30,7 +31,7 @@ body {
 }
 
 h2 {
-    font-family:"times new roman", times, serif;
+    font-family:"times new roman", times, sans-serif;
     font-weight:bold;
     color: whitesmoke;
     text-align: center;
@@ -38,7 +39,7 @@ h2 {
    }
 
 p {
-    font-family: "times new roman", times, serif;
+    font-family: "times new roman", times, sans-serif;
     font-weight: normal;
     background-color: rgb(85, 215, 89, 0.5);
     color: black;
@@ -52,7 +53,7 @@ p {
    }
 
 dl {
-    font-family:"times new roman", times, serif;
+    font-family:"times new roman", times, sans-serif;
     background-color: lightgrey;
     color: darkgreen;
     display: inline-block;
@@ -62,7 +63,7 @@ dl {
  }
 
  ol {
-    font-family:"times new roman", times, serif;
+    font-family:"times new roman", times, sans-serif;
     background-color: lightgrey;
     color: darkgreen;
     display: inline-block;
