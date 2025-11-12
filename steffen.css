@@ -12,7 +12,7 @@ body {
     position: relative; /* allow absolute positioning of child elements */
    }
 
-h1 {
+#myheader {
     font-family:times new roman, times, serif;
     font-weight:bold;
     color: whitesmoke;
