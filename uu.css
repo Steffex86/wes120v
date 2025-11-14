@@ -7,7 +7,6 @@
     margin: 20px auto;
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: center;
     background-color: #f9f9f9;
 }
 body {
@@ -19,6 +18,9 @@ table, th, td {
     border-collapse: collapse;
     border: 2px solid black;
     padding: 6px;
+}
+table {
+    margin: 0 auto;
 }
 th {
    height: 30px;
