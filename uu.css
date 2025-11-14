@@ -1,12 +1,25 @@
+body {
+	background-color: #c3f9f4;
+    font-family: Arial, "Times New Roman", Times, serif;
+    }
 table, th, td {
+    background-color: white;
+    border-collapse: collapse;
     border: 2px solid black;
-    text-align: left;
+    padding: 6px;
+}
+th {
+   height: 30px;
 }
 .number {
-    font-weight: bold;
     text-align: center;
 }  
 thead {
     background-color: white;
     color: black;
+}
+caption {
+	font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
 }
