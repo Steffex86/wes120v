@@ -25,7 +25,7 @@ table, th, td {
     padding: 6px;
 }
 table {
-    margin: 10px auto;
+    margin: 10px inherit;
 }
 th {
    height: 30px;
