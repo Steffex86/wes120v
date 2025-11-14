@@ -9,7 +9,7 @@ body {
 .tablebox {
     width: 65%;
     margin-bottom: 100px;
-    margin: auto;
+    margin: 80px auto;
     border: 1px solid #ccc;
     padding: 10px;
     background-color: #f9f9f9;
@@ -37,4 +37,16 @@ thead {
 }
 .number {
     text-align: center;
+}
+.list {
+	background-color: lightblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+.listheader {
+	text-align: center;
+}
+ul {
+	list-style-type: disc;
+    line-height: 1.2;
 }
