@@ -1,3 +1,7 @@
+body {
+	background-color: #c3f9f4;
+    font-family: Arial, "Times New Roman", Times, serif;
+    }
 #header {
     text-align: center;
     margin-bottom: 20px;
@@ -9,10 +13,11 @@
     padding: 10px;
     background-color: #f9f9f9;
 }
-body {
-	background-color: #c3f9f4;
-    font-family: Arial, "Times New Roman", Times, serif;
-    }
+caption {
+	font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
 table, th, td {
     background-color: white;
     border-collapse: collapse;
@@ -24,16 +29,11 @@ table {
 }
 th {
    height: 30px;
-}
-.number {
-    text-align: center;
 }  
 thead {
     background-color: white;
     color: black;
 }
-caption {
-	font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
+.number {
+    text-align: center;
 }
