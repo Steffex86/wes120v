@@ -26,6 +26,7 @@ table, th, td {
 }
 table {
     margin: 10px auto;
+    display:block;
 }
 th {
    height: 30px;
