@@ -2,7 +2,7 @@ body {
 	background-color: #c3f9f4;
     font-family: Arial, "Times New Roman", Times, serif;
     }
-#header {
+.header {
     text-align: center;
     margin-bottom: 20px;
     }
@@ -25,7 +25,7 @@ table, th, td {
     padding: 6px;
 }
 table {
-    margin: 10px inherit;
+    margin: 10px auto;
 }
 th {
    height: 30px;
