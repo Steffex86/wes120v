@@ -147,6 +147,17 @@
               <li>Ved innfylling av skjemaer får man info hvis noe mangler eller er feil utfylt. Da med tydelig melding om hva som må endres.</li>
               <li>Ved fullføring av kjøp får man opp ett vindu hvor man kan endre både personlig info, gjennomgå varene som handles og endre betalingsmåte før endelig bekreftelse. Undermenyene til dette vinduet (Klarna) kan ikke benyttes kun med tastatur.</li>
             </ul>  
+        </div>
+        <div class=list>
+         <h2 class=listheader>Prinsipp 4. - Robust</h2>
+         <h3 class=listheader>Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av brukeragenter, inkludert kompenserende teknologi</h3>
+            <ul>
+              <li>Stormberg AS har en del syntaksfeil i koden. Enkelte HTML-elementer er ikke korrekt nestet, og noen elementer er ikke riktig avsluttet. Skjermlesere vil dermed få utfordringer med å tolke dette innholdet.</li>
+              <li>Flere knapper mangler tilgjengelig navn (aria-label eller synlig tekst).</li>
+              <li>Viewport tillater zoom og skalering, men dette fungerer fortsatt ikke helt optimalt på alt innholdet.</li>
+              <li>Alle elementroller og ARIA-attributter er brukt korrekt, gyldige og i samsvar med spesifikasjonen. Ingen forbudte eller feilverdier er funnet. Aria-hidden håndteres riktig. Ingen skjulte, fokuserbare elementer.</li>
+              <li>Alle skjemafelt har tydelige, synlige etiketter.</li>
+            </ul>  
         </div>    
     </body>
 </html>
