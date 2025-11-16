@@ -3,7 +3,6 @@
     <head>
         <title> WES120V - Steffen </title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="steffen.css"/>
 <style>
     body {
     background-image: url("woods-3.jpg");
@@ -18,7 +17,6 @@
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
-    /* position: relative; *//* allow absolute psitioning of child elements */
    }
 
 #myheader {
@@ -30,15 +28,12 @@
     text-align: center;
     font-size: 40px;
    }
-
-.place {
-  background-color: lightgreen;
-  color: black;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-}
+nav {
+	font-family:"times new roman", times, sans-serif;
+    font-weight:bold;
+    margin: auto;
+    text-align: center;
+ }
 
 h2 {
     font-family:"times new roman", times, sans-serif;
@@ -61,8 +56,20 @@ p {
     padding: 10px;
     margin: 10px auto;
    }
-
-.list {
+section {
+  text-align: left
+  }
+.list1 {
+    font-family:"times new roman", times, sans-serif;
+    background-color: lightgrey;
+    color: darkgreen;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    display: inline block
+ }
+.list2 {
     font-family:"times new roman", times, sans-serif;
     background-color: lightgrey;
     color: darkgreen;
@@ -71,62 +78,65 @@ p {
     padding: 10px;
     margin: 10px auto;
  }
-
- ol {
-    font-family:"times new roman", times, sans-serif;
-    background-color: lightgrey;
-    color: darkgreen;
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px;
-    margin: 10px auto;
-    position: absolute; /* position relative to wrapper */
-    right: 20px;        
-    bottom: 20px;
-   }
+ .place {
+  background-color: lightgreen;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  }
+.placebox {
+  width: 60%;
+  margin: auto;
+}
 </style>
     </head>
 
     <body>
         <div id="wrapper">
           <header id="myheader"> WES120V - Oppgave HTML/CSS </header>
-          <h2> Steffen Valseth </h2><br>
+          <h2> Steffen Valseth </h2>
           <p><b>Mann 39 &aring;r gammel. Studerer IT og ledelse på USN Vestfold.<br>
             Bor i Sande i Vestfold med samboer og ei datter på 2 år.</p>
-           
-           <section class="list"> 
-           <dl>
+          
+          <nav>
+          	<a href="universellutforming.html" target="_blank">Universell utforming</a>
+          	<a href="test.html" target="_blank">Testside</a>
+          </nav>
+          <section class="list1"> 
+           	<dl>
               <dt><b> Interesser:</b></dt>
                 <dd> Fotball </dd>
                 <dd> Skogturer </dd>
                 <dd> Fjellturer </dd>
                 <dd> Hobbysnekring </dd>
-          </dl>
+          	</dl>
           </section>
           
-          <section class="list">
-          <ol>
+          <section class="list2">
+          	<ol>
               <li> Laget en enkel nettside i HTML/CSS </li>
               <li> Brukt div, id og class for layout </li>
               <li> Brukt liste (ol, ul, dl) for strukturering av innhold </li>
               <li> Brukt meta charset for norsk tegnsett </li>
               <li> Linket til ekstern CSS fil for styling </li>
-          </ol><br>
+          </ol>
           </section>
         </div>
-
+		
+        <div class="placebox">
         <div class="place">
           <h2>Norge</h2>
           <p>Landet jeg bor i</p>
-
+</div>
         <div class="place">
           <h2>Vestfold</h2>
           <p>Fylket jeg bor i</p>
-
+</div>
         <div class="place">
           <h2>Sande</h2>
           <p>Kommunen jeg bor i</p>
         </div>
-
+        </div>
+        
     </body>
 </html>
