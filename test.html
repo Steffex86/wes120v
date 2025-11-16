@@ -1,0 +1,132 @@
+<!DOCTYPE html>  <!--WES120V OBLIGATORISK OPPGAVE-->
+<html>
+    <head>
+        <title> WES120V - Steffen </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="steffen.css"/>
+<style>
+    body {
+    background-image: url("woods-3.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    /* position: relative; *//* allow absolute psitioning of child elements */
+   }
+
+#myheader {
+    font-family:"times new roman", times, sans-serif;
+    font-style:oblique;
+    font-weight:bold;
+    text-decoration:underline;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+   }
+
+.place {
+  background-color: lightgreen;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+    font-family:"times new roman", times, sans-serif;
+    font-weight:bold;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+   }
+
+p {
+    font-family: "times new roman", times, sans-serif;
+    font-weight: normal;
+    background-color: rgb(85, 215, 89, 0.5);
+    color: black;
+    display: block;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px auto;
+   }
+
+.list {
+    font-family:"times new roman", times, sans-serif;
+    background-color: lightgrey;
+    color: darkgreen;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px auto;
+ }
+
+ ol {
+    font-family:"times new roman", times, sans-serif;
+    background-color: lightgrey;
+    color: darkgreen;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px auto;
+    position: absolute; /* position relative to wrapper */
+    right: 20px;        
+    bottom: 20px;
+   }
+</style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+          <header id="myheader"> WES120V - Oppgave HTML/CSS </header>
+          <h2> Steffen Valseth </h2><br>
+          <p><b>Mann 39 &aring;r gammel. Studerer IT og ledelse på USN Vestfold.<br>
+            Bor i Sande i Vestfold med samboer og ei datter på 2 år.</p>
+           
+           <section class="list"> 
+           <dl>
+              <dt><b> Interesser:</b></dt>
+                <dd> Fotball </dd>
+                <dd> Skogturer </dd>
+                <dd> Fjellturer </dd>
+                <dd> Hobbysnekring </dd>
+          </dl>
+          </section>
+          
+          <section class="list">
+          <ol>
+              <li> Laget en enkel nettside i HTML/CSS </li>
+              <li> Brukt div, id og class for layout </li>
+              <li> Brukt liste (ol, ul, dl) for strukturering av innhold </li>
+              <li> Brukt meta charset for norsk tegnsett </li>
+              <li> Linket til ekstern CSS fil for styling </li>
+          </ol><br>
+          </section>
+        </div>
+
+        <div class="place">
+          <h2>Norge</h2>
+          <p>Landet jeg bor i</p>
+
+        <div class="place">
+          <h2>Vestfold</h2>
+          <p>Fylket jeg bor i</p>
+
+        <div class="place">
+          <h2>Sande</h2>
+          <p>Kommunen jeg bor i</p>
+        </div>
+
+    </body>
+</html>
