@@ -1,79 +1,108 @@
 body {
+    font-family:"times new roman", times, sans-serif;
     background-image: url("woods-3.jpg");
     height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     }
-
-#wrapper {
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    position: relative; /* allow absolute positioning of child elements */
-   }
-
-#myheader {
-    font-family:"times new roman", times, sans-serif;
-    font-style:oblique;
-    font-weight:bold;
-    text-decoration:underline;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 40px;
-   }
-
-.city {
-  background-color: lightgreen;
-  color: black;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-h2 {
-    font-family:"times new roman", times, sans-serif;
-    font-weight:bold;
-    color: whitesmoke;
-    text-align: center;
+#mainheader { 
     font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(85, 215, 89, 0.9);
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
    }
-
-p {
-    font-family: "times new roman", times, sans-serif;
+nav {
+    Background-color: white;
+    color: black;
+    font-size: 22px;
+    font-weight:bold;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 10px;
+ }
+ a:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+ }
+.info {
     font-weight: normal;
-    background-color: rgb(85, 215, 89, 0.5);
+    font-size: 20px;
+    background-color: rgb(85, 215, 89, 0.9);
     color: black;
     display: block;
     max-width: 600px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
-    font-size: 20px;
     padding: 10px;
-    margin: 10px auto;
-   }
-
-dl {
-    font-family:"times new roman", times, sans-serif;
-    background-color: lightgrey;
+    margin: 20px auto;
+   } 
+section {
+    font-size: 18px;
     color: darkgreen;
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    display: block;
+    padding: 1px 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left
+  }
+.list1 {
+    max-width: 180px;
     margin: 10px auto;
  }
-
- ol {
-    font-family:"times new roman", times, sans-serif;
-    background-color: lightgrey;
-    color: darkgreen;
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px;
+.list2 {
+    max-width: 450px;
     margin: 10px auto;
-    position: absolute; /* position relative to wrapper */
-    right: 20px;        
-    bottom: 20px;
-   }
+ }
+.placebox {
+  max-width: 400px;
+  margin: 20px auto;
+}
+#place1 {
+  background-color: lightgreen;
+  color: black;
+  border: 3px solid black;
+  text-align: center;
+  padding; 10px;
+  }
+#place2 {
+  background-color: lightgreen;
+  color: black;
+  border: 3px solid black;
+  text-align: center;
+  padding; 20px;
+  width: 80%;
+  display: block;
+  margin: 8px auto;
+  }
+#place3 {
+  background-color: lightgreen;
+  color: black;
+  border: 3px solid black;
+  text-align: center;
+  padding; 30px;
+  width: 60%;
+  display: block;
+  margin: 8px auto;
+  }
+footer {
+  font-style: oblique;
+  background-color: rgb(243, 247, 243);
+  border: 1px solid black;
+  text-align:center;
+  margin: 40px auto;
+  max-width: 200px;
+}
