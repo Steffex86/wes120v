@@ -21,22 +21,28 @@
 
 #myheader {
     font-family:"times new roman", times, sans-serif;
+    background-color: rgb(85, 215, 89, 0.5);
     font-style:oblique;
     font-weight:bold;
     text-decoration:underline;
     color: black;
     text-align: center;
     font-size: 40px;
+    border-radius: 10px;
    }
 nav {
 	font-family:"times new roman", times, sans-serif;
+    font-size: 20px;
     font-weight:bold;
+    color: black;
     margin: auto;
     text-align: center;
  }
 
 h2 {
     font-family:"times new roman", times, sans-serif;
+    background-color: rgb(85, 215, 89, 0.5);
+    border-radius: 10px;
     font-weight:bold;
     color: black;
     text-align: center;
@@ -50,17 +56,18 @@ p {
     color: black;
     display: block;
     max-width: 600px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
     font-size: 20px;
     padding: 10px;
     margin: 10px auto;
    }
 section {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: left
   }
+  
 .list1 {
     font-family:"times new roman", times, sans-serif;
     background-color: lightgrey;
@@ -70,7 +77,9 @@ section {
     display: block;
     padding: 10px;
     margin: 10px auto;
-    max-width: 400px;
+    max-width: 150px;
+    border-radius: 10px;
+
  }
 .list2 {
     font-family:"times new roman", times, sans-serif;
@@ -80,7 +89,9 @@ section {
     display: block;
     padding: 10px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 380px;
+    border-radius: 10px;
+
  }
  .place {
   background-color: lightgreen;
@@ -91,6 +102,11 @@ section {
 .placebox {
   width: 60%;
   margin: auto;
+}
+footer {
+  background-color: lightgreen;
+
+  border: 1px solid black;
 }
 </style>
     </head>
@@ -118,31 +134,31 @@ section {
           
           <section class="list2">
           	<ol>
-              <li> Laget en enkel nettside i HTML/CSS </li>
-              <li> Brukt div, id og class for layout </li>
+              <li> Laget en enkel nettside med HTML</li>
+              <li> Brukt forskjellige tag'er for layout </li>
               <li> Brukt liste (ol, ul, dl) for strukturering av innhold </li>
               <li> Brukt meta charset for norsk tegnsett </li>
               <li> Linket til ekstern CSS fil for styling </li>
           </ol>
           </section>
-        </div>
 		
-        <div class="placebox">
-        <div class="place">
-          <h2>Norge</h2>
-          <p>Landet jeg bor i</p>
-</div>
-        <div class="place">
-          <h2>Vestfold</h2>
-          <p>Fylket jeg bor i</p>
-</div>
-        <div class="place">
-          <h2>Sande</h2>
-          <p>Kommunen jeg bor i</p>
-        </div>
-        </div>
-        <footer>
+            <div class="placebox">
+            <div class="place">
+            <h2>Norge</h2>
+            <p>Landet jeg bor i</p>
+            </div>
+            <div class="place">
+            <h2>Vestfold</h2>
+            <p>Fylket jeg bor i</p>
+            </div>
+            <div class="place">
+            <h2>Sande</h2>
+            <p>Kommunen jeg bor i</p>
+            </div>
+            </div>
+            <footer>
             <p>Laget av Steffen Valseth</p>
-        </footer>
+            </footer>
+        </div>      
     </body>
 </html>
