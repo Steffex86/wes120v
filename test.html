@@ -27,11 +27,11 @@
     text-decoration:underline;
     color: black;
     text-align: center;
-    font-size: 50px;
     border-radius: 10px;
     display: block;
     max-width: 600px;
     margin: 10px auto;
+    padding: 10px;
    }
 nav {
 	font-family:"times new roman", times, sans-serif;
@@ -41,21 +41,7 @@ nav {
     margin: auto;
     text-align: center;
  }
-
-h2 {
-    font-family:"times new roman", times, sans-serif;
-    background-color: rgb(85, 215, 89, 0.8);
-    border-radius: 10px;
-    font-weight:bold;
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    display: block;
-    max-width: 300px;
-    margin: 10px auto;
-   }
-
-p {
+.info {
     font-family: "times new roman", times, sans-serif;
     font-weight: normal;
     background-color: rgb(85, 215, 89, 0.8);
@@ -119,18 +105,25 @@ footer {
 
     <body>
         <div id="wrapper">
-          <header id="myheader"> WES120V - Oppgave HTML/CSS </header>
-          <h2> Steffen Valseth </h2>
-          <p><b>Mann 39 &aring;r gammel. Studerer IT og ledelse på USN Vestfold.<br>
-            Bor i Sande i Vestfold med samboer og ei datter på 2 år.</p>
+          
+          <header id="myheader">
+          <h1>WES120V - Oppgave HTML/CSS</h1>
+          </header>
           
           <nav>
           	<a href="universellutforming.html" target="_blank">Universell utforming</a> ||
           	<a href="test.html" target="_blank">Testside</a>
           </nav>
-          <section class="list1"> 
+
+          <article class="info">
+          <h2> Steffen Valseth </h2>
+          <p><b>Mann 39 &aring;r gammel. Studerer IT og ledelse på USN Vestfold.<br>
+           Bor i Sande i Vestfold med samboer og ei datter på 2 år.</p>
+          </article>
+          
+                    <section class="list1"> 
            	<dl>
-              <dt><b> Interesser:</b></dt>
+              <dt><b><u>Interesser:</u></b></dt>
                 <dd> Fotball </dd>
                 <dd> Skogturer </dd>
                 <dd> Fjellturer </dd>
