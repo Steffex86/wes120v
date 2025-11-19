@@ -76,27 +76,27 @@ section {
   color: black;
   border: 3px solid black;
   text-align: center;
-  /*padding; 10px;*/
+  padding; 10px;
   }
 #place2 {
   background-color: lightgreen;
   color: black;
   border: 3px solid black;
   text-align: center;
-  /*padding;20px;
+  padding;20px;
   width: 80%;
   display: block;
-  margin: 8px auto;*/
+  margin: 8px auto;
   }
 #place3 {
   background-color: lightgreen;
   color: black;
   border: 3px solid black;
   text-align: center;
-  /*padding; 30px;
+  padding; 30px;
   width: 60%;
   display: block;
-  margin: 8px auto;*/
+  margin: 8px auto;
   }
 footer {
   font-style: oblique;
